@@ -44,7 +44,7 @@ jobs:
         path: target/site/jacoco/
         
     - name: Upload artifact to repository
-      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/zh')
       run: |
         mvn deploy \
         -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/${{ github.repository }}
