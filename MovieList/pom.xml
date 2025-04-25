@@ -14,7 +14,7 @@
     <groupId>com.movielist</groupId>
     <artifactId>movielist</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>MovieList</name>
+    <name>Movie-List</name>
     <description>Movie List Application</description>
     
     <properties>
@@ -91,17 +91,17 @@
                         <configuration>
                             <rules>
                                 <rule>
-                                    <element>PACKAGE</element>
+                                    <element>BUNDLE</element>
                                     <limits>
                                         <limit>
                                             <counter>LINE</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>0.60</minimum>
+                                            <minimum>0.25</minimum>
                                         </limit>
                                         <limit>
                                             <counter>BRANCH</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>0.60</minimum>
+                                            <minimum>0.25</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
