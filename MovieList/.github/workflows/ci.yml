@@ -1,4 +1,5 @@
 # This is a Java CI workflow with Maven
+# Runs on every push to zh branch
 name: MovieList CI with Maven
 
 on:
