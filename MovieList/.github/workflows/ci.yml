@@ -3,9 +3,9 @@ name: MovieList CI with Maven
 
 on:
   push:
-    branches: [ main, zh ]
+    branches: [ zh ]
   pull_request:
-    branches: [ main, zh ]
+    branches: [ zh ]
 
 jobs:
   build:
