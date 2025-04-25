@@ -1,3 +1,4 @@
+# This is a Java CI workflow with Maven
 name: Java CI with Maven
 
 on:
